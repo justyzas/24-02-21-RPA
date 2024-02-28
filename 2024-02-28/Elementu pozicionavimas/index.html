@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			.pirmas-blokas {
+				width: 250px;
+				margin-bottom: 15px;
+			}
+			.antras-blokas {
+				width: 100px;
+			}
+			.eilute {
+				display: flex;
+				/* Horizontali lygiuotė */
+				justify-content: end;
+				/* Vertikali lygiuotė */
+				align-items: center;
+				height: 300px;
+				background-color: bisque;
+			}
+			.zaidimu-aikstele {
+				width: 400px;
+				height: 400px;
+				background-color: rgb(227, 251, 170);
+				display: flex;
+				/* flex-direction: row; */
+				/* Vertikalus poz. */
+				justify-content: space-between;
+				/* Horizontalus poz. */
+				align-items: start;
+				/* gap: 10px; */
+			}
+			.box {
+				width: 70px;
+				height: 70px;
+				background-color: red;
+				border: 2px solid green;
+				display: flex;
+				font-size: 25px;
+				color: white;
+			}
+			.center-center {
+				justify-content: center;
+				align-items: center;
+			}
+			.h-center {
+				justify-content: center;
+			}
+			.end-end {
+				justify-content: end;
+				align-items: end;
+			}
+			.melynas-mygtukas {
+				background-color: rgb(93, 93, 171);
+				color: white;
+				border: 0;
+				/* Padding - elementų atitraukimas iš vidaus */
+				/* padding-left: 40px;
+				padding-right: 40px;
+				padding-top: 10px;
+				padding-bottom: 10px; */
+
+				padding: 7px 15px;
+				border-radius: 3px;
+				cursor: pointer;
+			}
+			.melynas-mygtukas:hover {
+				background-color: rgb(57, 57, 191);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="eilute">
+			<div class="pirmas-blokas">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, vel.
+			</div>
+		</div>
+
+		<div class="zaidimu-aikstele">
+			<div class="box h-center">1</div>
+			<div class="box center">2</div>
+			<div class="box end-end">3</div>
+		</div>
+		<input />
+		<button class="melynas-mygtukas">tekstas</button>
+	</body>
+</html>
