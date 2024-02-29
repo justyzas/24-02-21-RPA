@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			body {
+				margin: 0;
+			}
+
+			nav {
+				background-color: rgb(34, 34, 34);
+				min-height: 50px;
+				color: white;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			.logo {
+				font-size: 24px;
+				font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+					"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+				text-decoration: none;
+				padding: 15px;
+				display: inline-block;
+			}
+			nav div.container a {
+				color: rgb(182, 179, 179);
+			}
+			nav div.container a:hover {
+				color: white;
+			}
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+			}
+			.navigation .left-side .nav-item {
+				padding: 15px;
+				text-decoration: none;
+			}
+			.nav-item.selected {
+				background-color: black;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div class="container navigation">
+				<div class="left-side">
+					<a
+						href="/index.html"
+						class="logo"
+						>Logo</a
+					>
+					<a
+						href="#"
+						class="nav-item selected"
+					>
+						Home
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						About
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						Products
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						Services
+					</a>
+				</div>
+				<div class="right-side">
+					<input type="text" />
+					<button>Search</button>
+				</div>
+			</div>
+		</nav>
+		<header></header>
+		<main></main>
+		<footer></footer>
+	</body>
+</html>
