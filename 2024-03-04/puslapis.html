@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			body {
+				margin: 0;
+			}
+
+			nav {
+				background-color: rgb(34, 34, 34);
+				min-height: 50px;
+				color: white;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			.logo {
+				font-size: 24px;
+				font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+					"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+				text-decoration: none;
+				padding: 15px;
+				display: inline-block;
+			}
+			nav div.container a {
+				color: rgb(182, 179, 179);
+			}
+			nav div.container a:hover {
+				color: white;
+			}
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+			}
+			.navigation .left-side .nav-item {
+				padding: 15px;
+				text-decoration: none;
+			}
+			.nav-item.selected {
+				background-color: black;
+				color: white;
+			}
+			nav div.right-side {
+				display: flex;
+				align-items: center;
+			}
+			div.right-side input {
+				height: 25px;
+			}
+
+			div.right-side button {
+				display: block;
+				height: 31px;
+			}
+
+			header {
+				background-color: rgb(154, 205, 50);
+				min-height: 290px;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				font-family: Helvetica, sans-serif;
+			}
+			header h1 {
+				margin: 0;
+				font-size: 64px;
+				font-weight: 400;
+				color: rgb(173, 255, 47);
+			}
+
+			header p {
+				font-size: 21px;
+				color: rgb(173, 255, 47);
+			}
+			header div button {
+				background-color: rgb(60, 110, 160);
+				color: white;
+				border: none;
+				border-radius: 4px;
+				padding: 8px 12px;
+				cursor: pointer;
+			}
+
+			header div button:hover {
+				background-color: rgb(24, 71, 118);
+			}
+			.showcase {
+				display: flex;
+				gap: 70px;
+			}
+			.section1 {
+				padding-top: 20px;
+				font-family: Helvetica, sans-serif;
+			}
+			.section1 h1 {
+				text-align: center;
+				font-size: 36px;
+				font-weight: 400;
+			}
+			.section1 h1 span {
+				font-size: 24px;
+				color: gray;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div class="container navigation">
+				<div class="left-side">
+					<a
+						href="/index.html"
+						class="logo"
+						>Logo</a
+					>
+					<a
+						href="#"
+						class="nav-item selected"
+					>
+						Home
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						About
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						Products
+					</a>
+					<a
+						href="#"
+						class="nav-item"
+					>
+						Services
+					</a>
+				</div>
+				<div class="right-side">
+					<input type="text" />
+					<button>Search</button>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<h1>Dramatically Engage</h1>
+			<p>
+				Objectively innovate empowered manufactured products whereas parallel
+				platforms.
+			</p>
+			<div>
+				<button>Engage now</button>
+			</div>
+		</header>
+		<main>
+			<section class="section1 container">
+				<h1>Superior Collaboration <span>Visualize Quality</span></h1>
+				<p>
+					Proactively envisioned multimedia based expertise and cross-media
+					growth strategies. Seamlessly visualize quality intellectual capital
+					without superior collaboration and idea-sharing. Holistically
+					pontificate installed base portals after maintainable products.
+				</p>
+				<div class="showcase">
+					<article>
+						<img src="https://placehold.co/400x300 " />
+						<h2>Efficiently Unleash</h2>
+						<p>
+							Collaboratively administrate empowered markets via plug-and-play
+							networks. Dynamically procrastinate B2C users after installed base
+							benefits. Dramatically visualize customer directed convergence
+							without revolutionary ROI.
+						</p>
+					</article>
+					<article>
+						<img src="https://placehold.co/400x300 " />
+						<h2>Efficiently Unleash</h2>
+						<p>
+							Collaboratively administrate empowered markets via plug-and-play
+							networks. Dynamically procrastinate B2C users after installed base
+							benefits. Dramatically visualize customer directed convergence
+							without revolutionary ROI.
+						</p>
+					</article>
+					<article>
+						<img src="https://placehold.co/400x300 " />
+						<h2>Efficiently Unleash</h2>
+						<p>
+							Collaboratively administrate empowered markets via plug-and-play
+							networks. Dynamically procrastinate B2C users after installed base
+							benefits. Dramatically visualize customer directed convergence
+							without revolutionary ROI.
+						</p>
+					</article>
+				</div>
+			</section>
+			<section class="section2"></section>
+		</main>
+		<footer></footer>
+	</body>
+</html>
